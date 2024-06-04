@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+  margin: 33px;
+  color: #333;
+  font-size: 13px;
+}
+
+h1, h2{
+  line-height: 18px;
+}
+
+p, ol, ul, td {
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+a{
+  color: #666;
+}
