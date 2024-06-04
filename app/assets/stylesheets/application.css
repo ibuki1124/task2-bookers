@@ -53,3 +53,32 @@ label{
 #notice{
   color: green;
 }
+
+#error{
+  width: 450px;
+  border: 2px solid red;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+#error h2{
+  font-size: 12px;
+  color: white;
+  padding: 5px 5px 5px 15px;
+  background-color: red;
+  margin-top: 0;
+}
+
+.field_with_errors{
+  display: flex;
+}
+
+.field_with_errors label{
+  background-color: red;
+  padding: 2px 3px 0;
+  color: white;
+}
+
+.field_with_errors input, .field_with_errors textarea{
+  border: 3px solid red;
+}
