@@ -49,3 +49,7 @@ label{
 .field, .submit{
   margin-bottom: 10px;
 }
+
+#notice{
+  color: green;
+}
